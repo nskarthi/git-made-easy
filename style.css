@@ -1,0 +1,48 @@
+/* General body styling */
+body {
+    font-family: "Helvetica", sans-serif; /* Sets the default font */
+    color: #222; /* Sets the default text color to a dark gray */
+    line-height: 1.5; /* Sets the spacing between lines of text */
+    margin: 0; /* Removes default browser margin */
+    padding: 20px; /* Adds space around the content inside the body */
+    background-color: #f4f4f4; /* Sets a light gray background color */
+}
+
+/* Styling for all H1 headings */
+h1 {
+    color: #00539f; /* Sets the text color to a specific blue */
+    text-shadow: 2px 2px 0px black; /* Adds a simple shadow effect */
+    text-align: center; /* Centers the heading text */
+    padding: 20px 0; /* Adds top and bottom padding */
+}
+
+/* Styling for all paragraphs */
+p {
+    border: 1px solid #ccc; /* Adds a light gray border around paragraphs */
+    padding: 15px; /* Adds space between the text and the border */
+    margin-bottom: 15px; /* Adds space below each paragraph */
+    background-color: #fff; /* Sets the background to white */
+}
+
+/* Styling for images */
+img {
+    display: block; /* Centers the image using margins */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image is responsive and doesn't exceed its container width */
+    border-radius: 8px; /* Adds rounded corners to images */
+}
+
+/* Styling for a specific class (e.g., <div class="container">) */
+.container {
+    width: 80%; /* Sets the width of the container */
+    margin: 0 auto; /* Centers the container on the page */
+}
+
+/* Styling for a specific ID (e.g., <button id="submit-btn">) */
+#submit-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Some padding */
+    border: none; /* No border */
+    cursor: pointer; /* Change mouse cursor to a hand */
+}
